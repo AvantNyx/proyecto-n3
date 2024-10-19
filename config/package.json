@@ -1,0 +1,9 @@
+{
+  "name": "alura-geek",
+  "version": "1.0.0",
+  "description": "Aplicación para listar, registrar y eliminar productos.",
+  "type": "module",
+  "scripts": {
+    "start": "vercel dev"
+  }
+}

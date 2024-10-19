@@ -1,0 +1,293 @@
+:root{
+    --fuente-uno: "VT323", monospace;
+    --fuente-dos: "Inconsolata", monospace;
+    --color-fondo: rgba(39, 47, 63, 0.82);
+}
+
+body{
+    background-color: var(--color-fondo);
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer{
+    background-color: #4e58637c;
+    display: flex;
+    height: 65px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.logoUno{
+    display:flex;
+    margin-bottom: -30px;
+    font-family: var(--fuente-uno);
+    -webkit-text-stroke: 0.3px rgba(114, 119, 136, 0.668);
+    font-weight: 100;
+    color: #e9e9d5c9;
+    gap: 10px;
+    align-items: center;
+    font-size: 17.3px;
+}
+
+.iconoUno{
+    height: 0.7rem;
+}
+
+.firma_sub{
+    letter-spacing: 1px;
+    margin-bottom: -4px;
+}
+.firma__sub{
+    margin-bottom: 14px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-family: Arial, sans-serif;
+    color: rgba(149, 169, 181, 0.807);
+}
+
+.logoDos{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color:rgba(192, 192, 189, 0.715);
+}
+
+
+/* --- cabecera --- */
+
+.cabecera{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    background-color: rgba(235, 228, 223, 0.959);   
+}
+
+.cabecera__titulo{
+    font-family: var(--fuente-uno);
+    color: rgb(254, 56, 56);
+    -webkit-text-stroke: 0.3px rgba(0, 0, 0, 0.389);
+}
+
+.cabecera__corazones{
+    width: 4rem;
+}
+
+
+/*  secciones  */
+
+.seccion{
+    display: flex;
+}
+
+.seccion__uno {
+    background-color: var(--color-fondo);
+    height: 100vh;
+    overflow: auto;
+    text-align: center;
+    width: 60%;
+}
+
+ul[data-lista] {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: flex-start;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.seccion__dos{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(96, 114, 129, 0.278);
+    height: 100vh;
+    width: 40%;
+}
+
+.titulos{
+    font-family: var(--fuente-uno);
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: beige;
+    -webkit-text-stroke: 0.22px rgba(96, 80, 0, 0.367);
+}
+
+/*  --- Tarjeta --- */
+
+#mensaje-vacio{
+    font-family: 'TheGoodMonolith', sans-serif;
+    margin-top: 4rem;
+    color: rgba(204, 204, 204, 0.623);
+    font-size: 30px;
+}
+
+.card {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+}
+
+.card__productos {
+    display: inline-block;
+    font-family: var(--fuente-dos);
+    margin: 1rem;
+    width: 156px;
+    height: 240px;
+    padding: 20px;
+    background-color: rgba(212, 219, 226, 0.281);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: #f5f8e4;
+}
+
+.card__imagen-contenedor{
+    width: 150px;
+    height: 156px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid rgba(163, 177, 190, 0.213);
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #ffffffd5;
+}
+
+.card__imagen {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.card__titulo {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card__contenido {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.card__valor {
+    font-size: 1.28rem;
+    margin: 0;
+}
+
+.card__icono {
+    width: 2rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* ---- Formulario ---- */
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+    background-color: rgba(240, 248, 255, 0.918);
+    padding: 10px;
+    border: 2px solid #001F5F;
+    border-radius: 50px;
+    font-size: 14px;
+    outline: none;
+}
+
+input::placeholder {
+    font-style: italic;
+    color: #001F5F;
+}
+
+.formulario {
+    margin-top: 4rem;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.formulario__botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+}
+
+.boton_uno, .boton_dos{
+    margin-top: 2rem;
+    width: 100px;
+    padding: 10px 20px;
+    border: 3px solid #737985;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #2e3646;
+    color: rgb(225, 224, 209);
+    transition: background-color 0.3s ease;
+}
+
+.borrarBoton {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+#borrar-todo {
+    background: none;
+    border: none;
+    font-family: var(--fuente-uno);
+    font-size: 18px;
+    color: #f19dc0dc;
+    -webkit-text-stroke: 0.01px rgba(239, 252, 184, 0.349);
+    text-decoration: underline; /* Subrayado */
+    text-decoration-thickness: 2px; /* Grosor del subrayado */
+    text-decoration-color: #8085a3c4; /* Color rosado del subrayado */
+    cursor: pointer;
+    padding: 0; /* Sin padding para que se vea más como un texto */
+}
+#borrar-todo:hover {
+    text-decoration-thickness: 3px; /* Grosor del subrayado al pasar el cursor */
+    color: #ff69b4; /* Cambiar el color del texto al pasar el cursor */
+}
+
+
+/* -- RESPONSIVE -- */
+
+@media only screen and (max-width : 900px) {
+
+.seccion{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+}
+.seccion__uno, .seccion__dos{
+    width: 100%;
+    
+}
+
+.seccion__dos{
+    padding-bottom: 4rem;
+    height: auto;
+}
+
+
+}

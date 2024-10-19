@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Aplicación para listar, registrar y eliminar productos. Proyecto AluraGeek">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/thegoodmonolith" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Alurageek</title>
+</head>
+<body>
+    <header class="cabecera">
+        <img class="cabecera__corazones" src="assets/hearts.GIF" alt="corazones">
+        <h1 class="cabecera__titulo">AluraGeek</h1>
+    </header>
+    <main class="seccion" id="productosVisible">
+        <section class="seccion__uno">
+            <h1 class="titulos">Mis productos</h1>
+            <p id="mensaje-vacio" style="display: none;">No hay productos</p>
+            <ul class="card" data-lista>
+            </ul>
+        </section>
+
+        <section class="seccion__dos">
+            <form class="formulario" data-formulario>
+                <h1 class="titulos">Agregar Producto:</h1>
+                <input type="text" placeholder="nombre..." name="nombre" required data-nombre>
+                <input type="number" placeholder="precio en USD..." name="precio" required data-precio>
+                <input type="text" placeholder="URL de la imagen..." name="imagen" required data-imagen>
+                <div class="formulario__botones">
+                    <button class="boton_uno" type="submit">Enviar</button>
+                    <button class="boton_dos" type="reset">Limpiar</button>
+                </div>
+                <div class="borrarBoton">
+                    <button id="borrar-todo">♻ Borrar Todos los Productos</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="logoUno">
+            <img class="iconoUno" src="assets/HeartLogo.svg" alt="logo corazones">
+            <h3>AluraGeek</h3>
+        </div>
+        <div class="logoDos">
+            <p class="firma_sub"> Desarrollado por AvantNyx</p>
+            <p class="firma__sub"> Alura Latam · 2024</p>
+        </div>
+    </footer>
+</body>
+    <script src="js/mostrarProductos.js" type="module"></script>
+    <script src="js/crearProducto.js" type="module"></script>
+    <script src="js/main.js"></script>
+</html>

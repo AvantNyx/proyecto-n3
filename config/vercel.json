@@ -1,0 +1,42 @@
+{
+  "builds": [
+    {
+      "src": "challenge_alurageek.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "css/style.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "js/mostrarProductos.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "js/crearProducto.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "js/main.js",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/challenge_alurageek.html"
+    },
+    {
+      "src": "/css/(.*)",
+      "dest": "/css/$1"
+    },
+    {
+      "src": "/js/(.*)",
+      "dest": "/js/$1"
+    },
+    {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
+    }
+  ]
+}
