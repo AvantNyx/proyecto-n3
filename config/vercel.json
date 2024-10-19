@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "challenge_alurageek.html",
+      "src": "index.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/challenge_alurageek.html"
+      "dest": "/index.html"
     }
   ]
 }
