@@ -1,3 +1,22 @@
 {
-  "productos": []
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "T-60",
+      "precio": "70",
+      "imagen": "assets/producto_uno.png"
+    },
+    {
+      "id": "2",
+      "nombre": "X-01",
+      "precio": "65",
+      "imagen": "assets/producto_dos.png"
+    },
+    {
+      "id": "3",
+      "nombre": "T-51",
+      "precio": "60",
+      "imagen": "assets/producto_tres.png"
+    }
+  ]
 }
