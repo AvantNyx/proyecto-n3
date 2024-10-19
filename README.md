@@ -9,4 +9,4 @@
 
 ## 🔖 Descripción
 
-Challenge AluraGeek en donde se aplican conceptos importantes como la manipulación del DOM, el uso de *json-server*, la realización de requisiciones con *fetch* y a trabajar con programación asíncrona utilizando *async/await*. *italic*
+Challenge AluraGeek en donde se aplican conceptos importantes como la manipulación del DOM, el uso de *json-server*, la realización de requisiciones con *fetch* y a trabajar con programación asíncrona utilizando *async/await*.
