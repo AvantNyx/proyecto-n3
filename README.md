@@ -6,4 +6,4 @@
 
 <h3 align="center"> Aplicación para listar, registrar y eliminar productos</h1>
 
-# 🔖 Descripción
+## 🔖 Descripción
