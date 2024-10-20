@@ -34,7 +34,7 @@ HTML, CSS y JavaScript.
 
 ### 🔗 Link del proyecto en Vercel
 
-➤  [AluraGeek](https://proyecto-n3-r6zxgvr9r-avantnyxs-projects.vercel.app/)<br />
+➤  [AluraGeek](https://proyecto-n3-git-main-avantnyxs-projects.vercel.app/)<br />
 
 
 # ╰┈➤ Author
