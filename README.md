@@ -20,4 +20,21 @@ Cada tarjeta se puede eliminar individualmente o con una opción extra que permi
 
 <img src="images/preview_one.png">
 
+## 🪄 Utilizando la Aplicación
+
+json-server ➘
+Simulación de una api rest utilizando **Node js**
+
+<img src="images/avant_nodjs.gif">
+
+
+### ˙ᵕ˙ Tecnologías utilizadas
+
+HTML, CSS y JavaScript.
+
+
+# ╰┈➤ Author
+**<h2 align="center"> ❀ ˖ ⋆  ݁ ‎  ݁‎[AvantNyx](https://github.com/AvantNyx)  ݁ ⋆ ˖ ❀</h2>**
+
+
 
