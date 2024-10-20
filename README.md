@@ -16,7 +16,8 @@ Challenge AluraGeek en donde se aplican conceptos importantes como la manipulaci
 Es una aplicación en la cual se pueden ingresar productos mediante un formulario. A los productos se les puede asignar: nombre, precio y una imágen URL.
 Cada tarjeta se puede eliminar individualmente o con una opción extra que permite borrar todos los productos en un solo click.
 
-⌞ ⌝ ‎ Captura ‎ ⌞ ⌝
+### ⌞ ⌝ ‎ Captura ‎ ⌞ ⌝
+
 <img src="images/preview_one.png">
 
 
