@@ -32,6 +32,10 @@ Simulación de una api rest utilizando **Node js**
 
 HTML, CSS y JavaScript.
 
+### 🔗 Link del proyecto en Vercel
+
+➤  [AluraGeek](https://proyecto-n3-r6zxgvr9r-avantnyxs-projects.vercel.app/)<br />
+
 
 # ╰┈➤ Author
 **<h2 align="center"> ❀ ˖ ⋆  ݁ ‎  ݁‎[AvantNyx](https://github.com/AvantNyx)  ݁ ⋆ ˖ ❀</h2>**
